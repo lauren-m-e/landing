@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+li {
+    font size: 18px;
+    color: #e5e7eb;
+}
+.hero {
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.info li {
+    color: #1f2937;
+    font-size: 18px;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.call {
+    background-color: #3882f6;
+}
+button {
+    color:#3882f6;
+}
+.footer {
+    background-color: #1f2937;
+}
