@@ -1,13 +1,38 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+ul  {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex: none;
+}
+
+nav ul {
+    display: flexbox;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0 -10px;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-}
+  }
+  
+nav li {
+    margin: 0 10px;
+    justify-content: flex-end;
+
+  }
+  
+    
+
+
 .logo{
     color: #f9faf8;
     font-size: 24px;
@@ -19,21 +44,39 @@ li {
 .hero {
     background-color: #1f2937;
     font-size: 48px;
-    font-weight:bolder;
     color: #f9faf8;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    font-weight: bolder;
+    flex: none;
+    padding: 150px;
+    padding-left: 200px;
+    gap: 50px;
 }
+
+img   { 
+    width: 100%;
+}
+
 .secondary {
     font-size: 18px;
     color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
 }
 .info {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    align-items: center;
 }
 .info li {
     color: #1f2937;
     font-size: 18px;
+    display: flex;
+    flex-flow: row nowrap;
+
 }
 .quote {
     background-color: #e5e7eb;
@@ -42,7 +85,16 @@ li {
     background-color: #3882f6;
 }
 button {
-    color:#3882f6;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 12px;
+    border-color: #3882f6;
+    border: 0ch;
+    padding: 15px;
+    padding-left: 30px;
+padding-right: 30px;
+font-weight: bold;
+font-size: 18px;
 }
 .footer {
     background-color: #1f2937;
