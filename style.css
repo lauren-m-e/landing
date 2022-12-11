@@ -2,8 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 100px;
-    padding-right: 100px;
+
 }
 
 
@@ -14,6 +13,8 @@ body {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .links {
     display: flex;
@@ -38,6 +39,10 @@ body {
     flex: 1;
     gap: 50px;    
     flex-shrink: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    padding-top: 70px;   
 }
 .left {
     flex: 1;
@@ -49,7 +54,6 @@ body {
 img {
     width: 300px;
 }
-
 .secondary {
     font-size: 18px;
     color: #e5e7eb;
@@ -62,6 +66,11 @@ img {
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    padding-bottom: 50px;
 }
 .words {
     padding: 20px;
@@ -72,7 +81,6 @@ img {
     justify-content: space-around;
     align-items: center;
 }
-
 .photos div {
     height: 100px;
     width: 100px;
@@ -81,14 +89,12 @@ img {
     border-style: solid;
     border-radius: 15px;
     overflow:hidden;
-
 }
 .photos img {
     width: 100%;
     height: 100%;
     align-self: center;
 }
-
 .caption {
     font-size: 18px;
     font-weight: normal;
@@ -100,18 +106,51 @@ img {
     display: flex;
     flex: initial;
     width: 100px;
-
 }
-
-
-
 
 .quote {
     background-color: #e5e7eb;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
 }
+.quote-one {
+    padding-bottom: 10px;
+}
+.quote-two {
+    font-weight: bolder;
+    display: flex;
+    justify-content: right;
+}
+
+
 .call {
+    color:#f9faf8;
     background-color: #3882f6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
 }
+.signup {
+    font-weight: bold;
+}
+
 button {
     background-color: #3882f6;
     color:#e5e7eb;
@@ -123,7 +162,33 @@ button {
 padding-right: 30px;
 font-weight: bold;
 font-size: 18px;
+
 }
 .footer {
     background-color: #1f2937;
+}
+.btn {
+    border: 2px #f9faf8;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 12px;
+    border-color: #3882f6;
+    border: 0ch;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.copyright {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
